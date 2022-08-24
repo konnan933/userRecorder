@@ -1,3 +1,4 @@
+import Button from "../UI/Button";
 import Card from "../UI/Card";
 import classes from "./AddUser.module.css";
 
@@ -13,7 +14,7 @@ function Adduser(props) {
         <input id="username" type="text"></input>
         <label htmlFor="username">Age(years)</label>
         <input id="username" type="number"></input>
-        <button type="submit">Add User</button>
+        <Button type="submit">Add User</Button>
       </form>
     </Card>
   );
